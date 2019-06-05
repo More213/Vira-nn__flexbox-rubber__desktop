@@ -1,0 +1,190 @@
+html,
+body{
+    height:100%;
+    min-width: 1000px;
+	margin:0px;
+    padding: 0px;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	background: #d1d2d4;
+}
+p{
+    font-size: 12px !important
+}
+.body,
+.header{
+    position: absolute;
+    top: 0px;
+    min-width: 1000px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.TT{
+    position: absolute;
+    height:420px;
+    width:335px;
+    top:0px;
+    left: 250px;
+}
+.flex{
+    position: relative;
+    min-width: 1000px;
+    width: 100%
+}
+.backgraund{
+    width: 100%;
+    min-width:830px;
+	position: absolute;
+    margin:0;
+    padding: 0;
+    top: 0;
+    height:500px;
+    background: url(./images/tbg.jpg) repeat-x;
+    z-index: 1;
+}
+.t1{
+    display: block;
+	position: relative;
+	top:79px;
+    left:20px ;
+	height: 120px;
+	width:284px;
+    background: url(./images/logo-vira.jpg) no-repeat;
+	z-index: 3;
+}
+.t2{
+    display: block;
+	position: relative;
+    top:-120px;
+	right:;
+	height: 214px;
+	width:324px;
+    background: url(./images/tstop-vira.jpg) no-repeat;
+	z-index: 2;
+}
+.t3{
+    display:block;
+	position:relative;
+	top:-120px;
+	left:12px;
+	height:50px;
+    width:300px;
+	background:url(./images/tsbot-vira.jpg) no-repeat;
+	z-index:3;
+}
+.t4{
+    display: block;
+	position:relative;
+	top:-13px;
+	left:40px;
+	height:50px;
+    width:300px;
+	background:url(./images/tsbot2-vira.jpg) no-repeat;
+	z-index:3;
+	}
+.t5{display: block;
+	position:absolute;
+	top:0px;
+    right:0px;
+	height:500px;
+	width:238px;
+	background:url(./images/t2-vira.jpg) no-repeat;
+	z-index:3;
+	}
+@media screen and(min-width:1200px){
+    .t5{
+        left: 1030px
+    }
+}
+.t6{display: block;
+	position:absolute;
+	top:230px;
+	left:0px;
+	height:210px;
+	min-height:210px;
+	width:238px;
+	background:url(./images/t3-vira.jpg) no-repeat ;
+	z-index:3;
+	}
+.icons{
+    display:flex;
+    position: absolute;
+    width:280px;
+    height:35px;
+    top: 285px;
+    right:67px ;
+}
+.iconshome{
+    display: block;
+    position: relative;
+    margin-right:15px ;
+    top:0px ;
+    left:40px;
+    width:35px;
+    height:35px; 
+    background:url(./images/home_1.gif) no-repeat;
+    z-index:1;
+ }
+.iconshome:hover{
+    display: block;
+    position: relative;
+    bottom: 100%;
+    left: 40px;
+    background:url('./images/home_2.gif') no-repeat ;
+    z-index: 9;
+}
+.contact{
+    display:block;
+    position: relative;
+    margin-right:16px;
+    top:0px;
+    left:106px;
+    width: 35px;
+    height: 35px;
+    background: url("./images/contact_1.gif") no-repeat;
+    z-index: 5;
+}
+.contact:hover{
+    display: block;
+    position: relative;
+    bottom: 100%;
+    left:106px;
+    background:url("./images/contact_3.gif") no-repeat ;
+    z-index: 9;
+}
+.map{
+    display:block;
+    position:relative;
+    margin-right:15px;
+    top: 0px;
+    left:170px ;
+    width:35px ;
+    height:35px ;
+    background:url(./images/map_1.gif) no-repeat ;
+    z-index:5;
+}
+.map:hover{
+    display: block;
+    position: relative;
+    bottom: 100%;
+    left:170px;
+    background:url("./images/map_2.gif") no-repeat ;
+    z-index: 9;
+}
+@media screen and (min-width: 1920px){
+    .TT{
+        position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+}
+    .flex{
+        z-index: 1
+    }
+    .icons{
+    position: relative;
+    right: 15px;
+    top:-135px;
+}
+}

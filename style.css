@@ -1,17 +1,23 @@
 html,
 body{
     height:100%;
-    min-width: 815px;
-	width:100%;
+    min-width: 960px;
+
 	margin:0px;
     padding: 0px;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	background: #d1d2d4;
 }
-
+.flex{display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 960px;
+    width: 100%;
+}
 .menu{
     width: 100%;
-    min-width:1000px;
+    min-width:960px;
 	position: absolute;
     margin:0;
     padding: 0;
@@ -20,7 +26,6 @@ body{
     background: url(./images/tbg.jpg) repeat-x;
     z-index: 1;
 }
-
 .TT{
     position: absolute;
     height:420px;
@@ -421,7 +426,7 @@ body{
             height:324px ;
             width:222px ;
             float:left;
-            margin-left: auto;
+            margin-left:10px;
 }
         .photo3{
             display: block;
@@ -437,7 +442,7 @@ body{
             width:222px;
             float:right;
             margin-bottom: 10px;
-            margin-left: auto;
+            margin-left:10px;
         }
         .photo5{
             margin-top:10px ;
