@@ -1,85 +1,61 @@
+nav{
+     position: absolute;
+    top:400px ;
+    z-index: 999
+}
 .main-menu {
-    display: block;
-    margin-top: 400px ;
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
     margin-left:50px ;
     padding: 0;
-    width:920px ;
     list-style: none;
 
 }
 
-.main-menu > div{
-    position: relative;
-    display:inline-block;
-    float: left;
-    margin-right: 10px;
-    border-bottom:1px dashed #4d6926;
-    z-index: 20
-}
-
 .main-menu a {
-    font-size: 11px;
+    font-size: 13px;
     display: block;
-    margin-left: -1px;
     padding: 8px 10px;
     color: #ffffff;
     text-decoration: none;
+    border-bottom:1px dashed #4d6926;
     
 }
 
-.main-menu a:hover {
+.main-menu .we:hover {
     background: #4c6828;
+
 }
 
 .main-menu .sub-menu {
-    position: absolute;
+    position: relative;
     display: none;
-    left: 3px;
+  
     margin: 0;
     padding: 0;
     list-style: none;
     background: #fcf8e3;
+    z-index: 19999
 }
 .main-menu .sub-menu a {
     margin-bottom: -2px;
     min-width: 50px;
     background:#5f9a14 ;
-    padding-right:20px;
+    padding-right:0px;
 }
 
-.main-menu > div:hover .sub-menu {
+.main-menu > li:hover .sub-menu {
     display: block;
 }
-.way{
-    position: relative;
-    top: 510px;
-    margin-left:30px ;
-    font-size:12px;
-    color:#4d6926;
-}
-.way a{
-    color: #4d6926;
-}
-.way1{
-    color:#000000;
-    text-decoration: none;
-    }
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1921px){
     nav{
-        position: relative;
-        bottom:456px ;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 2
+        z-index: 999;
+        width: 100%;
     }
     .main-menu{
-        margin-top:0 ;
-        margin-left: auto;
+       margin-left: auto;
         margin-right: auto;
     }
-    .main-menu > div{
-
-    z-index: 20
-}
 }

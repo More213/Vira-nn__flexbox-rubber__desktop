@@ -15,16 +15,9 @@
     flex-direction: column;
     max-width: 1600px;
     min-width: 960px;
+    margin-top: 100px
 }
 
-
-hr{
-    width: 96%;
-    position: relative;
-    left: 0px;
-    flex-shrink: 1;
-    top: 7px
-}
 .compani__new{
     display: flex;
     flex-direction: row;
@@ -34,7 +27,7 @@ hr{
     top: 10px;
     max-width: 1920px;
     min-width: 960px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 .company {
     display:flex;
@@ -154,20 +147,21 @@ hr{
     color: aliceblue;
 }
 .line1{
-    display: block;
+    width: 96%;
     position:relative;
-    top:319px ;
-    right:880px ;
+    top: 269px
 }
 .line2{
+    width: 96%;
     position:relative;
-    bottom:112px ;
-    right:640px ;
+    top: 279px
+   
 }
 .line3{
+    width: 96%;
     position:relative;
-    top:311px;
-    right: 640px;
+    top:289px;
+
 }
 .lift{
     position:relative;
@@ -263,34 +257,22 @@ hr{
             width:460px ;
             float:right;
         }
+
 @media screen and (max-width: 1100px){
-    .lift_line{}
-        position: relative;
-    margin-top: 50px;
-        
-}
+    .line1{
+        top:319px        
+    }
+     .line2{
+        top:329px        
+    }
+      .line3{
+        top:339px        
+    }
 .lift{
-    margin-top: 80px;
     top:350px ;
       }
-hr{
-    width: 96%;
-    position: relative;
-    left: 0px;
-    flex-shrink: 1;
-    top: 7px
-}
-.compani__new{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    top: 10px;
 
-    max-width: 1920px;
-    min-width: 960px;
-    margin-bottom: 90px;
-   
+.compani__new{
+    margin-bottom: 100px   
 }
 }
