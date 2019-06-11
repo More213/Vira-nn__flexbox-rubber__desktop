@@ -1,6 +1,6 @@
 .footer1{
     position:relative;
-    top:400px;
+
     bottom:0% ;
     display: block;
     background:#4c6828;
@@ -8,8 +8,7 @@
     min-width:90px;
     max-width:1540px ;
     z-index: 5;
-    margin-left:30px ;
-    margin-right: 30px;
+
     }
 .cons{
     margin-top: 20px;

@@ -4,14 +4,14 @@ nav{
     z-index: 999
 }
 .main-menu {
-    width: 1000px;
+    min-width: 300px;
+    max-width: 1000px;
     display:flex;
     justify-content: space-between;
     flex-direction: row;
     margin-left:50px ;
     padding: 0;
     list-style: none;
-
 }
 
 .main-menu a {
@@ -30,17 +30,18 @@ nav{
 }
 
 .main-menu .sub-menu {
-    position: relative;
+    position: absolute;
     display: none;
   
     margin: 0;
     padding: 0;
+    padding-right: 30px;
     list-style: none;
-    background: #fcf8e3;
-    z-index: 19999
+    background: #5f9a14 ;
+    z-index: 
 }
 .main-menu .sub-menu a {
-    margin-bottom: -2px;
+    margin-bottom: ;
     min-width: 50px;
     background:#5f9a14 ;
     padding-right:0px;
@@ -48,6 +49,7 @@ nav{
 
 .main-menu > li:hover .sub-menu {
     display: block;
+    z-index: 5
 }
 @media screen and (min-width: 1921px){
     nav{
@@ -58,4 +60,38 @@ nav{
        margin-left: auto;
         margin-right: auto;
     }
+}
+@media screen and (max-width: 1100px){
+    .main-menu {
+    min-width: 300px;
+    max-width: 1000px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-left:50px ;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+    .we{
+    margin-right: 20px
+    
+}
+}
+@media screen and (max-device-width: 1100px){
+    .main-menu {
+    min-width: 300px;
+    max-width: 1000px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-left:50px ;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+    .we{
+    margin-right: 20px
+    
+}
 }
