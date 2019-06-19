@@ -21,6 +21,12 @@
     justify-content: space-between;
 
 }
+.foot3{
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
 .bread-crumbs{
     position:relative;
     z-index: 100;
