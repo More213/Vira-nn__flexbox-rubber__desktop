@@ -301,3 +301,15 @@ padding: 5px;
             width:460px ;
             float:right;
         }
+footer{
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+.foot3{
+    position: relative;
+    top: 15%;
+    
+}
